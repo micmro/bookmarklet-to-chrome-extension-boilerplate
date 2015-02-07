@@ -3,10 +3,11 @@
 Boilerplate to port your bookmarklet to become a Chrome extension
 
 Simply copy your bookmarklet code into `bookmarklet-code.js` and test it localy, update the metadata and you're ready to pack it.
+
 In order to publish your extension follow the steps [here](https://developer.chrome.com/webstore/publish).
 
 
-# Test the chrome extension localy
+## Test the chrome extension localy
 
 The introductory documentation is from the [Chrome website](https://developer.chrome.com/extensions/getstarted#unpacked):
 
@@ -25,7 +26,7 @@ The introductory documentation is from the [Chrome website](https://developer.ch
 > If the extension is valid, it'll be loaded up and active right away! If it's invalid, an error message will be displayed at the top of the page. Correct the error, and try again.
 
 
-# Updating the manifest.json metadata
+## Updating the manifest.json metadata
 
 You'll need to update the following keys in the `manifest.json` file:
 
