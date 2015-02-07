@@ -29,15 +29,15 @@ The introductory documentation is from the [Chrome website](https://developer.ch
 
 You'll need to update the following keys in the `manifest.json` file:
 
-- name
+- `name`
   Name of the chrome extension
-- description
+- `description`
   Expain your chrome extension
-- homepage_url
-  (optinal) Your projects website, e.g. github repo
-- author
+- `homepage_url`
+  _(optinal)_ Your projects website, e.g. github repo
+- `author`
   Your or your organizations name
-- icons
+- `icons`
   Icon in various sizes for the Chrome Webstore
-- default_icon
+- `default_icon`
   Icon for the browser extension bar
