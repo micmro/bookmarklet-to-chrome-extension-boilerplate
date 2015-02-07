@@ -1,6 +1,6 @@
 # bookmarklet-to-chrome-extension-boilerplate
 
-Boilerplate to port your bookmarklet to a Chrome extension
+Boilerplate to port your bookmarklet to a Chrome extension.
 
 Simply copy your bookmarklet code into `bookmarklet-code.js` and test it localy, update the metadata and you're ready to pack it.
 
