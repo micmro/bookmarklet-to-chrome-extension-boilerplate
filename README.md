@@ -1,4 +1,4 @@
-# bookmarklet-to-chrome-extension-boilerplate
+# Bookmarklet to Chrome Extension Boilerplate
 
 Boilerplate to port your bookmarklet to a Chrome extension.
 
@@ -13,11 +13,17 @@ The introductory documentation is from the [Chrome website](https://developer.ch
 
 > Extensions that you download from the Chrome Web Store are packaged up as .crx files, which is great for distribution, but not so great for development. Recognizing this, Chrome gives you a quick way of loading up your working directory for testing. Let's do that now.
 
+
+
 > Visit [chrome://extensions](chrome://extensions) in your browser (or open up the Chrome menu by clicking the icon to the far right of the Omnibox:  The menu's icon is three horizontal bars. and select Extensions under the Tools menu to get to the same place).
 
 > Ensure that the Developer mode checkbox in the top right-hand corner is checked.
 
+![alt text](https://raw.githubusercontent.com/micmro/bookmarklet-to-chrome-extension-boilerplate/gh-pages/images/developer-mode.png "screenshot of developer mode checkbox")
+
 > Click Load unpacked extension… to pop up a file-selection dialog.
+
+![alt text](https://raw.githubusercontent.com/micmro/bookmarklet-to-chrome-extension-boilerplate/gh-pages/images/load-unpacked-extension.png "screenshot of load unpacked extension checkbox")
 
 > Navigate to the directory in which your extension files live, and select it.
 
@@ -25,6 +31,9 @@ The introductory documentation is from the [Chrome website](https://developer.ch
 
 > If the extension is valid, it'll be loaded up and active right away! If it's invalid, an error message will be displayed at the top of the page. Correct the error, and try again.
 
+![alt text](https://raw.githubusercontent.com/micmro/bookmarklet-to-chrome-extension-boilerplate/gh-pages/images/local-extension-loaded.png "screenshot of local Chrome Extension added")
+
+![alt text](https://raw.githubusercontent.com/micmro/bookmarklet-to-chrome-extension-boilerplate/gh-pages/images/bookmark-bar.png "screenshot of local Chrome Extension")
 
 ## Updating the manifest.json metadata
 
