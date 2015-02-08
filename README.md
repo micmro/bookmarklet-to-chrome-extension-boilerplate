@@ -9,7 +9,7 @@ In order to publish your extension follow the steps [here](https://developer.chr
 
 ## Test the chrome extension localy
 
-The introductory documentation is from the [Chrome website](https://developer.chrome.com/extensions/getstarted#unpacked):
+The documentation below is from the [Chrome Developer site](https://developer.chrome.com/extensions/getstarted#unpacked), augmented with screenshots from this boilerplate project:
 
 > Extensions that you download from the Chrome Web Store are packaged up as .crx files, which is great for distribution, but not so great for development. Recognizing this, Chrome gives you a quick way of loading up your working directory for testing. Let's do that now.
 
