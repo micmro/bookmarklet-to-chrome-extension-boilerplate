@@ -51,3 +51,6 @@ You'll need to update the following keys in the `manifest.json` file:
   Icon in various sizes for the Chrome Webstore
 - `default_icon`
   Icon for the browser extension bar
+
+##More
+Check out [bookmarklet-to-firefox-addon-boilerplate](https://github.com/micmro/bookmarklet-to-firefox-addon-boilerplate) if you want to port your bookmarklet to Firefox as well.
