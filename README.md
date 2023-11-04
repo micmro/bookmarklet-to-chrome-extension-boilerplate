@@ -1,5 +1,7 @@
 # Bookmarklet to Chrome Extension Template
 
+This is an updated version of [bookmarklet-to-chrome-extension-boilerplate](https://github.com/micmro/bookmarklet-to-chrome-extension-boilerplate) by micmro. In this version, the extension code is updated from V2 to V3.
+
 Template to port your bookmarklet to a Chrome extension.
 
 Simply copy your bookmarklet code into `bookmarklet-code.js` and test it localy, update the metadata and you're ready to pack it.
