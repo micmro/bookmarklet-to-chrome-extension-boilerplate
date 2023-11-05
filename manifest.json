@@ -22,8 +22,8 @@
   "background": {
     "service_worker": "event.js"
   },
-  "permissions": [
-    "tabs"
+  "host_permissions": [
+    "<all_urls>"
   ],
   "offline_enabled": false
 }
