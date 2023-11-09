@@ -1,17 +1,17 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "XYZ-Project",
   "description": "Awesome Chrome Extension of XYZ-Project",
   "version": "1.0",
   "homepage_url": "https://github.com/XYZ-Project",
-  "author" : "Your Name",
-  "icons": { 
+  "author": "Your Name",
+  "icons": {
     "16": "images/icon16.png",
     "19": "images/icon19.png",
     "48": "images/icon48.png",
     "128": "images/icon128.png"
   },
-  "browser_action": {
+  "action": {
     "default_icon": {
       "16": "images/icon16.png",
       "19": "images/icon19.png",
@@ -20,10 +20,14 @@
     }
   },
   "background": {
-    "scripts": ["event.js"],
-    "persistent": false
+    "service_worker": "event.js"
   },
   "permissions": [
+    "tabs",
+    "scripting",
+    "activeTab"
+  ],
+  "host_permissions": [
     "<all_urls>"
   ],
   "offline_enabled": false

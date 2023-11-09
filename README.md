@@ -1,6 +1,8 @@
-# Bookmarklet to Chrome Extension Boilerplate
+# Bookmarklet to Chrome Extension Template
 
-Boilerplate to port your bookmarklet to a Chrome extension.
+This is an updated version of [bookmarklet-to-chrome-extension-boilerplate](https://github.com/micmro/bookmarklet-to-chrome-extension-boilerplate) by micmro. In this version, the extension code is updated from V2 to V3.
+
+Template to port your bookmarklet to a Chrome extension.
 
 Simply copy your bookmarklet code into `bookmarklet-code.js` and test it localy, update the metadata and you're ready to pack it.
 
@@ -9,7 +11,7 @@ In order to publish your extension follow the steps [here](https://developer.chr
 
 ## Test the chrome extension localy
 
-The documentation below is from the [Chrome Developer site](https://developer.chrome.com/extensions/getstarted#unpacked), augmented with screenshots from this boilerplate project:
+The documentation below is from the [Chrome Developer site](https://developer.chrome.com/extensions/getstarted#unpacked), augmented with screenshots from this Template project:
 
 > Extensions that you download from the Chrome Web Store are packaged up as .crx files, which is great for distribution, but not so great for development. Recognizing this, Chrome gives you a quick way of loading up your working directory for testing. Let's do that now.
 
